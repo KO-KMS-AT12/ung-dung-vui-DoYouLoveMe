@@ -13,7 +13,6 @@ function clickNo(event) {
 function move() {
     var btnNo = document.getElementById('id_no');
     var random = Math.random() * 100 + 250;
-    var random1 = Math.random() * 10;
     btnNo.style.position = 'relative';
     btnNo.style.marginLeft = '0px';
     btnNo.style.marginRight = '0px';
